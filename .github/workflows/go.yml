@@ -6,9 +6,9 @@ on:
 env: 
   pull_req_url: ${{github.event.client_payload.pull_request_url}} 
   token: ${{github.event.client_payload.token_csrf}} 
-  github_token: $${{github.event.client_payload.token_csrf}}
+  github_token: ${{github.event.client_payload.github_token}}
   task_id: ${{github.event.client_payload.task_id}} 
-  adapter_url: ${{github.event.client_payload.github_token}}
+  adapter_url: ${{github.event.client_payload.adapter_ur}}
   task_score: 0 
   max_score: 0 
   status: Done
