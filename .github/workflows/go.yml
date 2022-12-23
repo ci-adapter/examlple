@@ -8,7 +8,7 @@ env:
   token: ${{github.event.client_payload.token_csrf}} 
   github_token: ${{github.event.client_payload.github_token}}
   task_id: ${{github.event.client_payload.task_id}} 
-  adapter_url: ${{github.event.client_payload.adapter_ur}}
+  adapter_url: ${{github.event.client_payload.adapter_url}}
   task_score: 0 
   max_score: 0 
   status: Done
