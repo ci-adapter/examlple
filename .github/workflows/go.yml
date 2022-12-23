@@ -28,7 +28,7 @@ jobs:
       run: |
         tree
         sudo git clone ${{env.pull_req_url}} student_work
-        sudo chmod -R 777 ./ci
+        sudo chmod -R 777 ./student_work
         tree     
         
     - name: Install dependences
