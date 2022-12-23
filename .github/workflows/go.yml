@@ -47,7 +47,7 @@ jobs:
       
     - name: Hello edu, i'm coming for you
       if: ${{ always() }}
-      run: 
+      run: |
         curl \
         -X PUT \
         -H "Accept: application/vnd.github.v3+json" \
