@@ -43,6 +43,7 @@ jobs:
     # INSERT YOUR CODE HERE
 
     - name: Test
+      working-directory: student_work
       run: go test -v ./...
       
     - name: Hello edu, i'm coming for you
